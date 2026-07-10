@@ -1,3 +1,1 @@
-function scrollToSection(id) {
-document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-}
+console.log("Aradhy Tech Studio Website Loaded");
