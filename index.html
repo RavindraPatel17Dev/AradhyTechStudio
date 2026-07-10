@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,66 +8,80 @@
 </head>
 <body>
 
+<!-- Navbar -->
 <header>
-    <h2>Aradhy Tech Studio</h2>
     <nav>
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#courses">Courses</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <h2>Aradhy Tech Studio</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 </header>
 
-<section id="home" class="hero">
-    <h1>Building Smart Apps & Future Developers</h1>
-    <p>Mobile Apps | AI Solutions | Game Development | IT Training</p>
-    <button onclick="scrollToSection('contact')">Get Started</button>
+<!-- Hero Section -->
+<section class="hero">
+    <img src="images/banner.png" alt="Banner">
+    <div class="hero-text">
+        <h1>Innovate • Develop • Elevate</h1>
+        <p>AI Solutions | Mobile Apps | Software Development</p>
+    </div>
 </section>
 
-<section id="services">
+<!-- Services -->
+<section id="services" class="services">
     <h2>Our Services</h2>
-    <div class="grid">
-        <div class="card">Android Development</div>
-        <div class="card">Flutter Development</div>
-        <div class="card">React Native</div>
-        <div class="card">Web Development</div>
-        <div class="card">AI Solutions</div>
-        <div class="card">Game Development 🎮</div>
+    <div class="cards">
+        <div class="card">
+            <h3>AI Solutions</h3>
+            <p>Automation & smart AI-based apps</p>
+        </div>
+        <div class="card">
+            <h3>Game Development</h3>
+            <p>High performance mobile games</p>
+        </div>
+        <div class="card">
+            <h3>Software Development</h3>
+            <p>Custom scalable solutions</p>
+        </div>
+        <div class="card">
+            <h3>Mobile Apps</h3>
+            <p>Android & iOS apps</p>
+        </div>
+        <div class="card">
+            <h3>Training</h3>
+            <p>Professional IT training</p>
+        </div>
+        <div class="card">
+            <h3>Consulting</h3>
+            <p>Expert tech guidance</p>
+        </div>
     </div>
 </section>
 
-<section id="courses">
-    <h2>Courses</h2>
-    <div class="grid">
-        <div class="card">Android (2-3 Months)</div>
-        <div class="card">Flutter (2-3 Months)</div>
-        <div class="card">React Native</div>
-        <div class="card">Basic Programming</div>
-        <div class="card">Game Development 🎮</div>
-    </div>
+<!-- About -->
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        Aradhy Tech Studio is a software development and training company 
+        focused on AI, mobile apps, and scalable solutions.
+    </p>
 </section>
 
-<section id="portfolio">
-    <h2>Our Projects</h2>
-    <p>Apps, Games, Websites</p>
-</section>
-
-<section id="contact">
+<!-- Contact -->
+<section id="contact" class="contact">
     <h2>Contact Us</h2>
-    <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Send</button>
-    </form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button>Send Message</button>
 </section>
 
 <footer>
-    <p>© 2026 Aradhy Tech Studio</p>
+    <p>© 2026 Aradhy Tech Studio. All Rights Reserved.</p>
 </footer>
-
-<script src="script.js"></script>
 
 </body>
 </html>
